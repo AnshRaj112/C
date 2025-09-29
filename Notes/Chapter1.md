@@ -71,7 +71,7 @@ this is the command to run the compile the *hello.c* file to an executable *hell
 We can also use the warning options like `-Wall -Wextra -Werror`, that helps to identify problems that can cause the program to fail or product exprected results. 
 
 ```
-gcc -Wall -Wextra -Werror -h hello hello.c
+gcc -Wall -Wextra -Werror -o hello hello.c
 ```
 
 ## Section 1.2: Original "Hello World!" in K&R C
